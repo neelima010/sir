@@ -520,6 +520,7 @@ for password in instabrute.passwords:
 
 
 		print ('[*] Login success %s' % [instabrute.username,password])
+		break
 
 
 	else:
