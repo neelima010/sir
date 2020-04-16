@@ -514,7 +514,7 @@ for password in instabrute.passwords:
 
 
 	sess = instabrute.Login(password)
-
+	print(sess)
 
 	if sess:
 
