@@ -157,7 +157,6 @@ for password in instabrute.passwords:
 		break
 	else:
 		print ('[*] Password incorrect [%s]' % password)
-	break
 
 	try:
 		time.sleep(delayLoop)
