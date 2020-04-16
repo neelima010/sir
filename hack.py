@@ -122,7 +122,7 @@ class Instabrute():
 
 
 
-		UsePorxy = Input('[*] Do you want to use proxy (y/n): ').upper()
+		UsePorxy = 'n'
 
 
 		if (UsePorxy == 'Y' or UsePorxy == 'YES'):
@@ -404,7 +404,7 @@ class Instabrute():
 
 
 
-			UsePorxy = Input('[*] Do you want to use proxy (y/n): ').upper()
+			UsePorxy = 'n'
 
 
 			if (UsePorxy == 'Y' or UsePorxy == 'YES'):
